@@ -1,0 +1,116 @@
+html {
+    background-color: #aaeeeeaa;
+    background-image: url("https://www.newegg.com/insider/wp-content/uploads/windows_xp_bliss-wide.jpg");
+  }
+  
+  fieldset {
+    border: none;
+    padding-bottom: 1rem;
+  }
+  
+  form {
+    background-color: #aaeeeecc;
+    height: 120vh;
+    text-align: left;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    font-family: Verdana;
+    font-size: 16px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #00beb9;
+    border-width: 2px;
+  }
+  
+  h1 {
+    max-width: 500px;
+    padding: 0.5rem;
+    background-color: #aaeeeecc;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #00beb9;
+    border-width: 2px;
+  }
+  
+  p {
+    max-width: 400px;
+    padding: 0.3rem;
+    background-color: #aaeeeecc;
+    border-radius: 5px;
+  }
+  
+  h1, p {
+    text-align: center;
+    margin: 1rem auto;
+    font-family: Verdana;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input[type="text"], 
+  input[type="email"],
+  input[type="number"] {
+    border-style: solid;
+    border-color: pink;
+    border-width: 2px;
+    border-radius: 5px;
+    width: 98.5%;
+    min-height: 2em;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    font-family: Verdana;
+  }
+  
+  textarea {
+    border-color: pink;
+    border-width: 2px;
+    border-radius: 5px;
+    width: 98.5%;
+    min-height: 2em;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-family: Verdana;
+  }
+  
+  select {
+    border-color: pink;
+    border-width: 2px;
+    border-radius: 5px;
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2.4em;
+    margin-top: 3px;
+    cursor: pointer;
+    font-family: Verdana;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 20%;
+    margin: 1rem auto;
+    margin-top: 1px;
+    height: 2em;
+    font-size: 0.8rem;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: pink;
+    min-width: 100px;
+    transition: 0.3s;
+    font-family: Verdana;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: pink;
+    border-color: violet;
+    cursor: pointer;
+  }
